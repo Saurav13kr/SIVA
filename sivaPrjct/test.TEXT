@@ -1,0 +1,29 @@
+pip install --global-option='build_ext' --global-option='-I/opt/homebrew/Cellar/portaudio/19.7.0/include' --global-option='-L/opt/homebrew/Cellar/portaudio/19.7.0/lib' pyaudio
+
+
+pip3 install --global-option='build_ext' --global-option='-I/opt/homebrew/Cellar/portaudio/19.7.0/include' --global-option='-L/opt/homebrew/Cellar/portaudio/19.7.0/lib' pyaudio
+
+
+
+
+ # listener = sr.Recognizer()
+    # info = " "
+    # try:
+    #     with sr.Microphone() as source:
+    #         listener.adjust_for_ambient_noise(source)
+    #         print('listening')
+    #         voice = listener.listen(source)
+    #         info = listener.recognize_google(voice)
+    #         print(info)
+    # except:
+    #         return " "
+    #         return info.lower()
+
+        # ------------------------------------------------
+    # r = sr.Recognizer()
+    # with sr.Microphone() as source:
+    #     print("Say something!")
+    #     audio = r.listen(source)
+    #
+    # print(r.recognize_sphinx(audio))
+#------------------------------------------------
